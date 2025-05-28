@@ -57,7 +57,6 @@ button[data-start]:disabled {
 
 .label {
   font-size: 12px;
-  color: #464545;
   text-transform: uppercase;
   margin-top: 4px;
   letter-spacing: 1px;
@@ -78,14 +77,15 @@ button[data-start]:disabled {
 }
 
 input[type="number"] {
-  font-size: 20px;
-  padding: 8px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 6px;
 }
 
 input[type="number"]:focus {
   outline: 1px solid #005cff;
-  border-radius: 2px;
-  
+  border-color: #005cff;
 }
 
 fieldset {
@@ -93,7 +93,6 @@ fieldset {
   flex-direction: wrap;
   gap: 90px;
   font-size: 16px;
-  border: 1px solid #888;
   border-radius: 4px;
 }
 
